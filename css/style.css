@@ -1,3 +1,11 @@
+.body{
+    min-width: 400px;
+    min-height: 100%;
+    font: 16px/1.4 'Myriad Pro', Arial, sans-serif;
+    position: relative;
+
+
+}
 .head{
     /*width: 100%;*/
     padding: 10px;
@@ -19,5 +27,6 @@
 .text{
     float: right;
     font-size: 12px;
+    line-height: 1;
     color: blue;
 }
