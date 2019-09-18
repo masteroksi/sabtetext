@@ -11,9 +11,13 @@
     background-color: coral;
 }
 .picture-img{
+    float: left;
     box-sizing: border-box;
-    display: inline-block;
+    /*display: inline-block;*/
     object-fit: cover;
-
-
+}
+.text{
+    float: right;
+    font-size: 12px;
+    color: blue;
 }
