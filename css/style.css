@@ -6,3 +6,14 @@
 .head__nav{
 
 }
+.main{
+    margin: 10px 0;
+    background-color: coral;
+}
+.picture-img{
+    box-sizing: border-box;
+    display: inline-block;
+    object-fit: cover;
+
+
+}
