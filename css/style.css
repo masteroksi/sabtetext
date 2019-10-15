@@ -9,19 +9,16 @@
 .head{
     /*width: 100%;*/
     padding: 10px;
-    background: coral;
 }
 .head__nav{
 
 }
 .main{
     margin: 10px 0;
-    background-color: coral;
 }
 .picture-img{
     float: left;
     box-sizing: border-box;
-    /*display: inline-block;*/
     object-fit: cover;
 }
 .text{
