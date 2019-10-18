@@ -1,10 +1,8 @@
 .body{
     min-width: 400px;
     min-height: 100%;
-    font: 16px/1.4 'Myriad Pro', Arial, sans-serif;
+    font: 16px/1.4 'Source Sans Pro', Arial, sans-serif;
     position: relative;
-
-
 }
 .head{
     /*width: 100%;*/

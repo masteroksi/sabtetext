@@ -2,36 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name=" keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Document-test</title>
 </head>
 <body>
 <header class="head">
+    <div class="head__logo">ShowTrack</div>
     <nav class="head__nav">
-        <ul class="head__list">
-            <li class="head__item">
-                <a href="index.html" class="head__link">main</a>
-            </li>
-            <li class="head__item">
-                <a href="contacts.html" class="head__link">contacts</a>
-            </li>
+        <ul>
+            <li class="head__nav-item">Features</li>
+            <li class="head__nav-item">Community</li>
+            <li class="head__nav-item">Get Started</li>
         </ul>
     </nav>
+    <div class="head__baton-login">
+        <form class="head-login-form" action="" method="post" target="_blank">
+            <a href="#" class="head-login-form__link">Log in</a>
+            <a href="#" class="head-login-form__button">Get started</a>
+        </form>
+    </div>
 </header>
-<main class="main">
-    <img  class="main__picture-img" src="./images/picture.png"
-          srcset="./images/picture@2x.png"  width="491" alt="picture">
-    <p class="main__text"> Lorem ipsum dolor sit amet, cons ed ectetur adipiscing elit. Nam gravida et nulla vitae
-        mattis. Quisque males… cursus sagittis.Lorem ipsum dolor sit amet, cons ed ectetur adipiscing elit. Nam gravida
-        et nulla vitae mattis. Quisque males… cursus sagittis.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa nihil, rerum? Autem cum dicta eaque est ex hic itaque, molestiae natus neque obcaecati officiis
-        provident quod rem tempore veritatis voluptatem?
-    </p>
-
-</main>
-main
-
+<section class="welcome-screen">
+    <div class="welcome-screen__inner">
+        <div class="welcome-screen__content">
+            <h1 class="welcome-screen__title">Track your shows automatically</h1>
+            <p class="welcome-screen__text">With ShowTrackr you can track your favorite TV shows automatically,
+                so you never loose track of your TV shows ever again. 🍿
+            </p>
+            <div class="welcome-screen__mail-start">
+                <form class="section-form" action="" method="post">
+                    <input class="section-form__input" type="text" name="" placeholder="Email your@email.com">
+                    <input class="section-form__button" type="submit" name="" value="Start tracking">
+                </form>
+            </div>
+        </div>
+        <div class="welcome-screen__img">
+            <img src="images/iphone-x-mockup.svg" alt="iphone-x">
+        </div>
+    </div>
+</section>
 </body>
 </html>
