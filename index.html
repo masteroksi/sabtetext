@@ -10,39 +10,100 @@
 </head>
 <body>
 <header class="head">
-    <div class="head__logo">ShowTrack</div>
+    <span class="head__logo">ShowTrack</span>
     <nav class="head__nav">
-        <ul>
-            <li class="head__nav-item">Features</li>
-            <li class="head__nav-item">Community</li>
-            <li class="head__nav-item">Get Started</li>
+        <ul class="head__nav-list">
+            <li class="head__nav-item">
+                <a href="#" target="_blank" class="head__nav-link">Features</a>
+            </li>
+            <li class="head__nav-item">
+                <a href="#" target="_blank" class="head__nav-link">Community</a>
+            </li>
+            <li class="head__nav-item">
+                <a href="#" target="_blank" class="head__nav-link">Get Started</a>
+            </li>
         </ul>
     </nav>
     <div class="head__baton-login">
-        <form class="head-login-form" action="" method="post" target="_blank">
-            <a href="#" class="head-login-form__link">Log in</a>
-            <a href="#" class="head-login-form__button">Get started</a>
-        </form>
+        <a href="#" class="head-login-form__link">Log in</a>
+        <a href="#" class="head-login-form__button">Get started</a>
     </div>
 </header>
-<section class="welcome-screen">
-    <div class="welcome-screen__inner">
-        <div class="welcome-screen__content">
-            <h1 class="welcome-screen__title">Track your shows automatically</h1>
-            <p class="welcome-screen__text">With ShowTrackr you can track your favorite TV shows automatically,
-                so you never loose track of your TV shows ever again. 🍿
-            </p>
-            <div class="welcome-screen__mail-start">
-                <form class="section-form" action="" method="post">
-                    <input class="section-form__input" type="text" name="" placeholder="Email your@email.com">
-                    <input class="section-form__button" type="submit" name="" value="Start tracking">
-                </form>
-            </div>
-        </div>
-        <div class="welcome-screen__img">
-            <img src="images/iphone-x-mockup.svg" alt="iphone-x">
-        </div>
+<main class="welcome-screen">
+    <div class="welcome-screen__content">
+        <h1 class="welcome-screen__title">Track your shows automatically</h1>
+        <p class="welcome-screen__text">With ShowTrackr you can track your favorite TV shows automatically,
+            so you never loose track of your TV shows ever again. 🍿
+        </p>
+        <form class="section-form" action="" method="post">
+            <input class="section-form__input" type="text" name="" placeholder="Email your@email.com">
+            <input class="section-form__button" type="submit" name="" value="Start tracking">
+        </form>
     </div>
-</section>
+    <div class="welcome-screen__img">
+        <img src="images/iphone-x-mockup.svg" alt="iphone-x">
+    </div>
+    <div class="welcome-screen__operat-
+    systems-bloc">
+        <span class="welcome-screen__text">Compatible with</span>
+        <ul class="welcome-screen__list">
+            <li class="welcome-screen__item-icon">
+                <img src="images/netflix.svg" alt="netflix">
+            </li>
+            <li class="welcome-screen__item-icon">
+                <img src="images/apple.svg" alt="apple">
+            </li>
+            <li class="welcome-screen__item-icon">
+                <img src="images/android.svg" alt="android">
+            </li>
+            <li class="welcome-screen__item-icon">
+                <img src="images/windows.svg" alt="windows">
+            </li>
+            <li class="welcome-screen__item-icon">
+                <img src="images/synology.png"
+                     srcset="images/synology@2x.png 2x, images/synology@3x.png 3x"
+                     alt="synology">
+            </li>
+        </ul>
+    </div>
+    <div class="features">
+        <div class="features__title-wrap">
+            <span class="features__text">Features</span>
+            <h2 class="features__title">Built and customized for your habits</h2>
+            <p class="features__text">ShowTrackr’s built-in machine learning and context-aware features
+                guarantee that all the notifications and recommendations are always delivered to you in the perfect moment.
+            </p>
+        </div>
+        <ul class="features__list">
+            <li class="features__item">
+                <span class="features__img features__img_violet-icon"></span>
+                <!--<img class="features__img" src="" alt="">-->
+                <h3 class="features__caption">Automated tracking
+                </h3>
+                <p class="features__text">Track your favorite shows automatically without switching between apps.</p>
+                <a class="features__link" href="#">Learn more</a>
+            </li>
+            <li class="features__item">
+                <span class="features__img features__img_orange-icon"></span>
+                <!--<img class="features__img" src="" alt="">-->
+                <h3 class="features__caption">Machine learning</h3>
+                <p class="features__text">Get recommendations like never before, which are truly
+                    customized for your taste.
+                </p>
+                <a class="features__link" href="#">Learn more
+                </a>
+            </li>
+            <li class="features__item">
+                <span class="features__img features__img_blue-icon"></span>
+                <!--<img class="features__img" src="" alt="">-->
+                <h3 class="features__caption">Smart notifications</h3>
+                <p class="features__text">Receive smart notifications exactly at the right moments when you need them.
+                </p>
+                <a class="features__link" href="#">Learn more
+                </a>
+            </li>
+        </ul>
+    </div>
+</main>
 </body>
 </html>
