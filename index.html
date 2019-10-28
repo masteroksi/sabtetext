@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <title>Document-test</title>
+    <title>ShowTrackr</title>
 </head>
 <body>
 <header class="head">
-    <span class="head__logo">ShowTrack</span>
+    <span class="head__logo">Show<b>Track</b></span>
     <nav class="head__nav">
         <ul class="head__nav-list">
             <li class="head__nav-item">
@@ -29,81 +29,339 @@
         <a href="#" class="head-login-form__button">Get started</a>
     </div>
 </header>
-<main class="welcome-screen">
-    <div class="welcome-screen__content">
-        <h1 class="welcome-screen__title">Track your shows automatically</h1>
-        <p class="welcome-screen__text">With ShowTrackr you can track your favorite TV shows automatically,
-            so you never loose track of your TV shows ever again. 🍿
-        </p>
-        <form class="section-form" action="" method="post">
-            <input class="section-form__input" type="text" name="" placeholder="Email your@email.com">
-            <input class="section-form__button" type="submit" name="" value="Start tracking">
-        </form>
+
+<main>
+    <div class="welcome-screen">
+        <div class="welcome-screen__content">
+            <h1 class="welcome-screen__title">Track your shows automatically</h1>
+            <p class="welcome-screen__text">With ShowTrackr you can track your favorite TV shows automatically,
+                so you never loose track of your TV shows ever again. 🍿
+            </p>
+            <form class="section-form" action="" method="post">
+                <input class="section-form__input" type="text" name="" placeholder="Email your@email.com">
+                <input class="section-form__button" type="submit" name="" value="Start tracking">
+            </form>
+        </div>
+        <div class="welcome-screen__img">
+            <img src="images/iphone-x-mockup.svg" alt="iphone-x">
+        </div>
+        <div class="welcome-screen__operat-systems-bloc">
+            <span class="welcome-screen__text">Compatible with</span>
+            <ul class="welcome-screen__list">
+                <li class="welcome-screen__item-icon">
+                    <img src="images/netflix.svg" alt="netflix">
+                </li>
+                <li class="welcome-screen__item-icon">
+                    <img src="images/apple.svg" alt="apple">
+                </li>
+                <li class="welcome-screen__item-icon">
+                    <img src="images/android.svg" alt="android">
+                </li>
+                <li class="welcome-screen__item-icon">
+                    <img src="images/windows.svg" alt="windows">
+                </li>
+                <li class="welcome-screen__item-icon">
+                    <img src="images/synology.png"
+                         srcset="images/synology@2x.png 2x, images/synology@3x.png 3x"
+                         alt="synology">
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="welcome-screen__img">
-        <img src="images/iphone-x-mockup.svg" alt="iphone-x">
-    </div>
-    <div class="welcome-screen__operat-
-    systems-bloc">
-        <span class="welcome-screen__text">Compatible with</span>
-        <ul class="welcome-screen__list">
-            <li class="welcome-screen__item-icon">
-                <img src="images/netflix.svg" alt="netflix">
-            </li>
-            <li class="welcome-screen__item-icon">
-                <img src="images/apple.svg" alt="apple">
-            </li>
-            <li class="welcome-screen__item-icon">
-                <img src="images/android.svg" alt="android">
-            </li>
-            <li class="welcome-screen__item-icon">
-                <img src="images/windows.svg" alt="windows">
-            </li>
-            <li class="welcome-screen__item-icon">
-                <img src="images/synology.png"
-                     srcset="images/synology@2x.png 2x, images/synology@3x.png 3x"
-                     alt="synology">
-            </li>
-        </ul>
-    </div>
+
     <div class="features">
         <div class="features__title-wrap">
             <span class="features__text">Features</span>
             <h2 class="features__title">Built and customized for your habits</h2>
             <p class="features__text">ShowTrackr’s built-in machine learning and context-aware features
-                guarantee that all the notifications and recommendations are always delivered to you in the perfect moment.
+                guarantee that all the notifications and recommendations are always delivered to you in the perfect
+                moment.
             </p>
         </div>
         <ul class="features__list">
             <li class="features__item">
-                <span class="features__img features__img_violet-icon"></span>
-                <!--<img class="features__img" src="" alt="">-->
-                <h3 class="features__caption">Automated tracking
+                <span class="features__img features__img_violet-icon">
+                    <img class="features__img-icon" src="images/icon-features/triangle.svg" width="17" height="20"
+                         alt="">
+                </span>
+                <h3 class="features__caption">
+                    Automated tracking
                 </h3>
                 <p class="features__text">Track your favorite shows automatically without switching between apps.</p>
-                <a class="features__link" href="#">Learn more</a>
-            </li>
-            <li class="features__item">
-                <span class="features__img features__img_orange-icon"></span>
-                <!--<img class="features__img" src="" alt="">-->
-                <h3 class="features__caption">Machine learning</h3>
-                <p class="features__text">Get recommendations like never before, which are truly
-                    customized for your taste.
-                </p>
-                <a class="features__link" href="#">Learn more
+                <a class="features__link" href="#">
+                    Learn more
                 </a>
             </li>
             <li class="features__item">
-                <span class="features__img features__img_blue-icon"></span>
-                <!--<img class="features__img" src="" alt="">-->
-                <h3 class="features__caption">Smart notifications</h3>
+                <span class="features__img features__img_orange-icon">
+                    <img class="features__img-icon" src="images/icon-features/machine-learning.svg" width="22"
+                         height="26" alt="">
+                </span>
+                <h3 class="features__caption">
+                    Machine learning
+                </h3>
+                <p class="features__text">Get recommendations like never before, which are truly
+                    customized for your taste.
+                </p>
+                <a class="features__link" href="#">
+                    Learn more
+                </a>
+            </li>
+            <li class="features__item">
+                <span class="features__img features__img_blue-icon">
+                    <img class="features__img-icon" src="images/icon-features/smart-notifications.svg" width="24"
+                         height="24" alt="">
+                </span>
+                <h3 class="features__caption">
+                    Smart notifications
+                </h3>
                 <p class="features__text">Receive smart notifications exactly at the right moments when you need them.
                 </p>
-                <a class="features__link" href="#">Learn more
+                <a class="features__link" href="#">
+                    Learn more
                 </a>
             </li>
         </ul>
     </div>
+
+    <div class="films-list">
+        <ul class="films-list__tracks-list">
+            <li class="films-list__item">
+                <a class="films-list__link" href="#">
+                    <img class="films-list__img" src="images/films-thumbnails/black-mirror.png"
+                         srcset="images/films-thumbnails/black-mirror@2x.png 2x, images/films-thumbnails/black-mirror@3x.png 3x"
+                         alt="">
+                </a>
+            </li>
+            <li class="films-list__item">
+                <a class="films-list__link" href="#">
+                    <img class="films-list__img" src="images/films-thumbnails/stranger-things.png"
+                         srcset="images/films-thumbnails/stranger-things@2x.png 2x, images/films-thumbnails/stranger-things@3x.png 3x"
+                         alt="">
+                </a>
+            </li>
+            <li class="films-list__item">
+                <a class="films-list__link" href="#">
+                    <img class="films-list__img" src="images/films-thumbnails/westworld.png"
+                         srcset="images/films-thumbnails/westworld@2x.png 2x, images/films-thumbnails/westworld@3x.png 3x"
+                         alt="">
+                </a>
+            </li>
+            <li class="films-list__item">
+                <a class="films-list__link" href="#">
+                    <img class="films-list__img" src="images/films-thumbnails/house-of-cards.png"
+                         srcset="images/films-thumbnails/house-of-cards@2x.png 2x, images/films-thumbnails/house-of-cards@3x.png 3x"
+                         alt="">
+                </a>
+            </li>
+            <li class="films-list__item">
+                <a class="films-list__link" href="#">
+                    <img class="films-list__img" src="images/films-thumbnails/game-thrones.png"
+                         srcset="images/films-thumbnails/game-thrones@2x.png 2x, images/films-thumbnails/game-thrones@3x.png 3x"
+                         alt="">
+                </a>
+            </li>
+            <li class="films-list__item">
+                <a class="films-list__link" href="#">
+                    <img class="films-list__img" src="images/films-thumbnails/flash.png"
+                         srcset="images/films-thumbnails/flash@2x.png 2x, images/films-thumbnails/flash@3x.png 3x"
+                         alt="">
+                </a>
+            </li>
+            <li class="films-list__item">
+                <a class="films-list__link" href="#">
+                    <img class="films-list__img" src="images/films-thumbnails/murder.png"
+                         srcset="images/films-thumbnails/murder@2x.png 2x, images/films-thumbnails/murder@3x.png 3x"
+                         alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="cross-platform-interface">
+        <div class="cross-platform-interface__inner">
+            <div class="cross-platform-interface__content">
+                <h3 class="cross-platform-interface__title">
+                    Easy-to-use interfaces on every platform
+                </h3>
+                <p class="cross-platform-interface__text">
+                    Since most of our features work in a completely automated way,
+                    you will mainly use our apps to discover new TV shows recommended for you and discuss the most
+                    interesting episodes with like-minded people.
+                </p>
+                <ul class="cross-platform-interface">
+                    <li class="cross-platform-interface__item">
+                        <img src="images/interfaces-icon/dashboard.svg" alt="Customized Dashboard">
+                        <span class="cross-platform-interface__text">Customized Dashboard</span>
+                    </li>
+                    <li class="cross-platform-interface__item">
+                        <img src="images/interfaces-icon/night-modes.svg" alt="Automatic Day & Night Modes">
+                        <span class="cross-platform-interface__text">Automatic Day & Night Modes</span>
+                    </li>
+                    <li class="cross-platform-interface__item">
+                        <img src="images/interfaces-icon/chat.svg" alt="Integrated Chat Platform">
+                        <span class="cross-platform-interface__text">Integrated Chat Platform</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="cross-platform-interface__mockup">
+                <img class="cross-platform-interface__iphone-img" src="images/iphone-x-mockup-small.svg"
+                     alt="iphone-x-mockup">
+                <span class="cross-platform-interface__wrap-mockup">
+                    <img src="images/web-app-mockup.png" alt=""
+                         class="cross-platform-interface__mockup-img">
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="power-of-community">
+        <div class="power-of-community__inner">
+            <div class="power-of-community__col">
+                <span class="power-of-community__tiny_text">Community</span>
+                <h3 class="power-of-community__title">We believe in the power of community</h3>
+                <p class="power-of-community__text">
+                    Our goal is to create a product and service that you’re satisfied
+                    with and use it every day. This is why we’re constantly working on our services to make it better
+                    every day and really listen to what our users has to say.
+                </p>
+                <button class="power-of-community">
+                    Read more testimonials
+                </button>
+            </div>
+            <div class="power-of-community__col">
+                <ul class="power-of-community__list">
+                    <li class="power-of-community__item">
+                        <article class="blog-post">
+                            <header class="blog-post__head">
+                                <img src="images/avatar-icon/" width="36" height="36" alt=""
+                                     class="blog-post__author-avatar">
+                                <span class="blog-post__author-name">Patrick Martin</span>
+                                <a href="#" class="blog-post__social-link blog-post__social-link_twitter">
+                                    Twitter
+                                    <!-- TODO: change img to background and hide text -->
+                                    <img class="blog-post__twit-icon" src="images/socials-icon/twit-icon.svg" width="18"
+                                         height="14" alt="">
+                                </a>
+                            </header>
+                            <p class="blog-post__text">
+                                ShowTrackr is a real gem! I started using it a couple months ago and it
+                                completely changed the way how I watch TV shows. I can only recommend it!
+                            </p>
+                            <footer class="blog-post__foot">
+                                <time class="blog-post__time " datetime="Jan 18, 2018">
+                                    Jan 18, 2018
+                                </time>
+                            </footer>
+                        </article>
+                    </li>
+                    <li class="power-of-community__item">
+                        <article class="blog-post">
+                            <header class="blog-post__head">
+                                <img src="images/avatar-icon/" alt="" width="36" height="36"
+                                     class="blog-post__author-avatar">
+                                <span class="blog-post__author-name">Patrick Martin</span>
+                                <a href="#" class="blog-post__social-link blog-post__social-link_twitter">
+                                    Twitter
+                                    <!-- TODO: change img to background and hide text -->
+                                    <img class="blog-post__twit-icon" src="images/socials-icon/twit-icon.svg" width="18"
+                                         height="14" alt="">
+                                </a>
+                            </header>
+                            <p class="blog-post__text">
+                                ShowTrackr is a real gem! I started using it a couple months ago and it
+                                completely changed the way how I watch TV shows. I can only recommend it!
+                            </p>
+                            <footer class="blog-post__foot">
+                                <time class="blog-post__time " datetime="Jan 18, 2018">
+                                    Jan 18, 2018
+                                </time>
+                            </footer>
+                        </article>
+                    </li>
+                    <li class="power-of-community__item">
+                        <article class="blog-post">
+                            <header class="blog-post__head">
+                                <img src="images/avatar-icon/" width="36" height="36" alt=""
+                                     class="blog-post__author-avatar">
+                                <span class="blog-post__author-name">Patrick Martin</span>
+                                <a href="#" class="blog-post__social-link blog-post__social-link_twitter">
+                                    Twitter
+                                    <!-- TODO: change img to background and hide text -->
+                                    <img class="blog-post__twit-icon" src="images/socials-icon/twit-icon.svg" width="18"
+                                         height="14" alt="">
+                                </a>
+                            </header>
+                            <p class="blog-post__text">
+                                ShowTrackr is a real gem! I started using it a couple months ago and it
+                                completely changed the way how I watch TV shows. I can only recommend it!
+                            </p>
+                            <footer class="blog-post__foot">
+                                <time class="blog-post__time " datetime="Jan 18, 2018">
+                                    Jan 18, 2018
+                                </time>
+                            </footer>
+                        </article>
+                    </li>
+                    <li class="power-of-community__item">
+                        <article class="blog-post">
+                            <header class="blog-post__head">
+                                <img src="" alt="" class="blog-post__author-avatar">
+                                <span class="blog-post__author-name">Patrick Martin</span>
+                                <a href="#" class="blog-post__social-link blog-post__social-link_twitter">
+                                    Twitter
+                                    <!-- TODO: change img to background and hide text -->
+                                    <img class="blog-post__twit-icon" src="images/socials-icon/twit-icon.svg" width="18"
+                                         height="14" alt="">
+                                </a>
+                            </header>
+                            <p class="blog-post__text">
+                                ShowTrackr is a real gem! I started using it a couple months ago and it
+                                completely changed the way how I watch TV shows. I can only recommend it!
+                            </p>
+                            <footer class="blog-post__foot">
+                                <time class="blog-post__time " datetime="Jan 18, 2018">
+                                    Jan 18, 2018
+                                </time>
+                            </footer>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="get-started">
+        <div class="get-started__wrap-title">
+            <span class="get-started__small-text">Get Started</span>
+            <h3 class="get-started__title">Start tracking your TV shows for free </h3>
+            <p class="get-started__text">In order to start tracking your TV shows, all you have to do is enter your
+                email address. Everything else will be taken care of by us. All you have to do is sit back, relax and
+                enjoy your TV shows.</p>
+        </div>
+        <form action="" class="get-started__form">
+            <label class="get-started__label">
+                <span class="get-started__text">Email</span>
+                <input type="email" name="email" placeholder="your@email.com" autocomplete="of"
+                       class="get-started__input">
+                <button class="get-started__btn">Start tracking</button>
+            </label>
+        </form>
+    </div>
 </main>
+<footer class="foot">
+    <ul class="foot__list">
+        <li class="foot__item">
+            <img src="images/socials-icon/twitter.svg" alt="" class="foot__socials-icon">
+        </li>
+        <li class="foot__item">
+            <img src="images/socials-icon/fasebook.svg" alt="" class="foot__socials-icon">
+        </li>
+        <li class="foot__item">
+            <img src="images/socials-icon/youtube.svg" alt="" class="foot__socials-icon">
+        </li>
+    </ul>
+    <span class="foot__text">Copyright 2018 All rights reserved — Designed by Daniel Korpai</span>
+</footer>
 </body>
 </html>
