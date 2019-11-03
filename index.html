@@ -4,69 +4,86 @@
     <meta charset="UTF-8">
     <meta name=" keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap"
+          rel="stylesheet">
     <title>ShowTrackr</title>
 </head>
 <body>
 <header class="head">
-    <span class="head__logo">Show<b>Track</b></span>
-    <nav class="head__nav">
-        <ul class="head__nav-list">
-            <li class="head__nav-item">
-                <a href="#" target="_blank" class="head__nav-link">Features</a>
-            </li>
-            <li class="head__nav-item">
-                <a href="#" target="_blank" class="head__nav-link">Community</a>
-            </li>
-            <li class="head__nav-item">
-                <a href="#" target="_blank" class="head__nav-link">Get Started</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="head__baton-login">
-        <a href="#" class="head-login-form__link">Log in</a>
-        <a href="#" class="head-login-form__button">Get started</a>
+    <div class="head__inner">
+        <span class="head__logo">Show<b class="head__logo-color">Track</b></span>
+        <nav class="head__nav">
+            <ul class="head__nav-list">
+                <li class="head__nav-item">
+                    <a href="#" target="_blank" class="head__nav-link">Features</a>
+                </li>
+                <li class="head__nav-item">
+                    <a href="#" target="_blank" class="head__nav-link">Community</a>
+                </li>
+                <li class="head__nav-item">
+                    <a href="#" target="_blank" class="head__nav-link">Get Started</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="head__baton-login">
+            <a href="#" class="head-login-form__link">Log in</a>
+            <a href="#" class="head-login-form__button">Get started</a>
+        </div>
     </div>
 </header>
 
 <main>
     <div class="welcome-screen">
-        <div class="welcome-screen__content">
-            <h1 class="welcome-screen__title">Track your shows automatically</h1>
-            <p class="welcome-screen__text">With ShowTrackr you can track your favorite TV shows automatically,
-                so you never loose track of your TV shows ever again. 🍿
-            </p>
-            <form class="section-form" action="" method="post">
-                <input class="section-form__input" type="text" name="" placeholder="Email your@email.com">
-                <input class="section-form__button" type="submit" name="" value="Start tracking">
-            </form>
+        <div class="welcome-screen__inner">
+            <div class="welcome-screen__content">
+                <h1 class="welcome-screen__title">Track your shows automatically</h1>
+                <p class="welcome-screen__text">With ShowTrackr you can track your favorite TV shows automatically,
+                    so you never loose track of your TV shows ever again. 🍿
+                </p>
+                <form class="section-form" action="" method="post">
+                    <label class="section-form__label">
+                        <span class="section-form__input-title">Email</span>
+                        <input class="section-form__input" type="text" name="" placeholder="your@email.com">
+                    </label>
+                    <input class="section-form__button" type="submit" name="" value="Start tracking">
+                </form>
+
+
+                <div class="welcome-screen__operat-systems-block">
+                    <span class="welcome-screen__operat-systems-text">Compatible with</span>
+                    <ul class="welcome-screen__operat-systems-list">
+                        <li class="welcome-screen__operat-systems-item-icon">
+                            <img src="images/netflix.svg" alt="netflix">
+                        </li>
+                        <li class="welcome-screen__operat-systems-item-icon">
+                            <img src="images/apple.svg" alt="apple">
+                        </li>
+                        <li class="welcome-screen__operat-systems-item-icon">
+                            <img src="images/android.svg" alt="android">
+                        </li>
+                        <li class="welcome-screen__operat-systems-item-icon">
+                            <img src="images/windows.svg" alt="windows">
+                        </li>
+                        <li class="welcome-screen__operat-systems-item-icon">
+                            <img src="images/synology.png"
+                                 srcset="images/synology@2x.png 2x, images/synology@3x.png 3x"
+                                 alt="synology">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="welcome-screen__img-content">
+                <img class="welcome-screen__img" draggable="false" src="images/iphone-x-mockup.svg" alt="iphone-x">
+            </div>
+
+
         </div>
-        <div class="welcome-screen__img">
-            <img src="images/iphone-x-mockup.svg" alt="iphone-x">
-        </div>
-        <div class="welcome-screen__operat-systems-bloc">
-            <span class="welcome-screen__text">Compatible with</span>
-            <ul class="welcome-screen__list">
-                <li class="welcome-screen__item-icon">
-                    <img src="images/netflix.svg" alt="netflix">
-                </li>
-                <li class="welcome-screen__item-icon">
-                    <img src="images/apple.svg" alt="apple">
-                </li>
-                <li class="welcome-screen__item-icon">
-                    <img src="images/android.svg" alt="android">
-                </li>
-                <li class="welcome-screen__item-icon">
-                    <img src="images/windows.svg" alt="windows">
-                </li>
-                <li class="welcome-screen__item-icon">
-                    <img src="images/synology.png"
-                         srcset="images/synology@2x.png 2x, images/synology@3x.png 3x"
-                         alt="synology">
-                </li>
-            </ul>
-        </div>
+
     </div>
 
     <div class="features">
