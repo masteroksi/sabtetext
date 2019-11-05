@@ -149,14 +149,12 @@ button {
     align-items: baseline;
     max-width: 471px;
     flex-basis: 471px;
-    /*flex-shrink: 0;*/
     padding-top: 19px;
     margin: 0 -18px;
 
 }
 .welcome-screen__operat-systems-item-icon{
     margin: 0 18px;
-    /*flex: 1;*/
 }
 .welcome-screen__operat-systems-img{
     opacity: 0.3;
@@ -205,10 +203,8 @@ button {
     justify-content: space-between;
     align-items: stretch;
     position: relative;
-    /*padding: 0 0 0 15px;*/
     border-radius: 4px;
     background-color: #ffffff;
-    /*box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 6px 12px 0 rgba(0, 0, 0, 0.05);*/
 }
 .section-form__label{
     flex-grow: 1;
@@ -294,37 +290,31 @@ button {
     font-weight: 300;
     color: #000000;
     opacity: 0.8;
+    margin: 0 0 80px 0;
 }
 .features__list{
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    /*display: flex;*/
-    /*flex-flow: row ;*/
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
-    /*align-content: center;*/
     display: grid;
     grid-column-gap: 100px;
+    grid-template-columns: 26% 26% 26%  ;
     /*grid-template-columns: 1fr 1fr 1fr;*/
-    grid-template-columns: minmax(100px,300px)repeat(3, 1fr);
+    /*grid-template-columns: minmax(100px,300px)repeat(3, 1fr);*/
     align-items: center;
-    justify-items: center;
+    justify-items: end;
     align-self: center;
-    justify-self: end;
-
-
+    justify-self: center;
 
 }
 .features__item{
-    align-self: center;
-    justify-self: end;
-
-
+    /*align-self: center;*/
+    /*justify-self: end;*/
+    text-align: center;
 }
 .features__img {
     position: relative;
-    display: block;
+    display: inline-block;
     width: 50px;
     height: 50px;
     border-radius: 14px;
@@ -354,16 +344,15 @@ button {
     color: #000000;
     font-weight: bold;
     margin: 14px 0 8px;
-
 }
 .features__text-small{
     opacity: 0.7;
     font-size: 16px;
     line-height: 1.5;
     color: #000000;
-
+    padding: 0 5px;
 }
-.features__link{
+.features__link-features{
     position: relative;
     padding: 10px 10px;
     font-size: 16px;
@@ -372,35 +361,30 @@ button {
     line-height: 24px;
     font-stretch: normal;
     font-style: normal;
-    /*line-height: 1.5;*/
     letter-spacing: normal;
 }
-.features__link:before,:after{
+.features__link-features:before{
     content: "";
+    display: block;
     position: absolute;
-    /*bottom: 100%;*/
-    bottom: 14px;
-    left: 50px;
-
-    border: 8px solid transparent;
+    left: 50%;
+    bottom: 0;
+    background-color: #9c09db;
+    height: 2px;
+    width: 100%;
+    transition: transform .3s linear;
+    transform: translateX(-50%) scaleX(0);
 }
-.features__link:before{
-    right: 20px;
-    margin-left: 4px;
-    border-left-color: #540cfa;
-
+.features__link-features:hover:before{
+    transform:  translateX(-50%)scaleX(1);
 }
-.features__link:after{
-    border-left-color: #ffffff;
-}
-
-
-
 /*features end*/
+
 
 /*films-list*/
 .films-list {
     overflow: hidden;
+    /*overflow: scroll;*/
 }
 
 .films-list__tracks-list {
@@ -410,8 +394,54 @@ button {
     align-items: center;
     align-content: center;
 }
+.films-list__item{
+    border-radius: 6px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 
+}
+.films-list__link{
+    line-height: 1;
+
+}
+.films-list__img{
+    object-fit: contain;
+
+}
 /*films-list end*/
+
+
+/*cross-platform-interface*/
+.cross-platform-interface{}
+.cross-platform-interface__inner{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 9px 10px;
+}
+.cross-platform-interface__content{
+    max-width: 570px;
+    text-align: left;
+}
+.cross-platform-interface__title{
+    font-size: 46px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 50px;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.cross-platform-interface__text{
+    opacity: 0.8;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    max-width: 460px;
+}
+
+/*cross-platform-interface end*/
+
 
 /*power-of-community*/
 .power-of-community {
