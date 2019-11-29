@@ -481,7 +481,8 @@ mark,
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
-  height: auto;
+  width: 36px;
+  height: 36px;
 }
 .img-thumbnail-pur{
   width: 50px;
@@ -3340,7 +3341,7 @@ input[type=button].btn-block {
 
 .custom-control-input {
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   opacity: 0;
 }
 .custom-control-input:checked ~ .custom-control-label::before {
@@ -9268,7 +9269,7 @@ button.bg-dark:focus {
   }
 
   .mt-xl-n3,
-.my-xl-n3 {
+.mt-xl-n3 {
     margin-top: -1rem !important;
   }
 
@@ -9687,6 +9688,24 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+.container-mockup{
+  /*position:relative;*/
+  /*z-index: 5;*/
+}
+
+.bg-web-app-mockup{
+  position: absolute;
+  z-index: 8;
+  left: 39px;
+  top: 0;
+  object-fit:contain;
+}
+.img-iphone{
+  position: relative;
+  z-index: 10;
+  /*margin: 145px 0 0;*/
+  left: -30px;
 }
 
 /*# sourceMappingURL=output.css.map */
